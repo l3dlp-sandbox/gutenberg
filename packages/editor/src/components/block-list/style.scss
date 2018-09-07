@@ -19,8 +19,13 @@
 			background: $light-gray-100;
 		}
 
+		.freeform-toolbar,
 		> .editor-block-list__block-edit > * > * {
 			visibility: hidden;
+		}
+
+		.freeform-toolbar {
+			position: absolute;
 		}
 
 		.editor-block-mover,
